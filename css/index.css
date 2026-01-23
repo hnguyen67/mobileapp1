@@ -23,9 +23,9 @@ body{
     Meiryo,
     sans-serif;
     text-align: center;
-    background-image: url(../img/xxxxxxxx.JPG);
-    background-size: cover;
-    overflow: hidden;
+    background-image: url(../img/thacnuoc.jpg);
+    background-size: contain;
+
 }
 
 header, footer, h1, h2, h3, p, div, .container01, .filler01 {
@@ -71,6 +71,7 @@ h2{
     border-radius: 0.5em 1.5em;
     background-color:rgba(245, 245, 245, 0.6);
     box-shadow:0 0 0.5em rgb(73, 72, 72);
+    background-image: url("../img/images.jpg")
 }
 main > p {
     font: 1.2em bold;
@@ -108,7 +109,7 @@ a:hover{
 .item01{
     position: relative;
     width: 6em;
-    height: 9em;
+    height: 12em;
     margin: 0;
     line-height: 1em;
     overflow: hidden;
@@ -163,6 +164,7 @@ footer> p {
     text-align: center;
     background: rgba(1, 24, 31, 0.7);
 }
+
 /*******************************************************/
 /* レスポンシブ対応　メディアクエリを使ってCSSを切り替える */
 /* https://www.design-memo.com/coding/css-media-queries */
